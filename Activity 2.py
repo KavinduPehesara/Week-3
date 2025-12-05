@@ -36,6 +36,7 @@ class fileHandler:
                     with open(r"C:\Users\kavin\OneDrive\Documents\Pycharm\demo.txt", "a", encoding='utf-8') as file:
 
                             file.write("End of File")
+                file.close()
 
         except FileNotFoundError:
             print("File not found. Make sure the file path is correct.")
